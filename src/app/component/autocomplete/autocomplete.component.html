@@ -1,1 +1,30 @@
-<p>autocomplete works!</p>
+<h3>Auto complete</h3>
+
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <!-- <mat-label>Number</mat-label> -->
+    <input matInput [matAutocomplete]="auto" [formControl]="formcontrol" />
+
+    <mat-autocomplete autoActiveFirstOption #auto>
+
+      <mat-option *ngFor="let item of filteroptionsList | async" [value]="item.code">{{item.name}}</mat-option>
+    </mat-autocomplete>
+
+
+    <!--
+    <input type="text"
+           placeholder="Pick one"
+           aria-label="Number"
+           matInput
+           [formControl]="myControl"
+           [matAutocomplete]="auto">
+
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      @for (option of filteredOptions | async; track option) {
+      <mat-option [value]="option">{{option}}</mat-option>
+      }
+    </mat-autocomplete>
+    -->
+  </mat-form-field>
+
+</form>
