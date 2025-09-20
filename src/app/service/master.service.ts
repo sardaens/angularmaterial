@@ -13,7 +13,9 @@ export class MasterService {
       {code:'c1',name:'Red'},
       {code:'c2',name:'Blue'},
       {code:'c3',name:'Yellow'},
-      {code:'c4',name:'MyDevelop'}
+      {code:'c4',name:'MyDevelop'},
+      {code:'c5',name:'This is a fix'}
+
     ]
   }
 }
