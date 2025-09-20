@@ -12,8 +12,7 @@ export class MasterService {
     return [
       {code:'c1',name:'Red'},
       {code:'c2',name:'Blue'},
-      {code:'c3',name:'Yellow'},
-      {code:'c5',name:'This is a fix'}
+      {code:'c3',name:'Yellow'}
     ]
   }
 }
