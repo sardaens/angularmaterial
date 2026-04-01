@@ -14,7 +14,9 @@ export class MasterService {
       {code:'c2',name:'Blue'},
       {code:'c3',name:'Yellow'},
       {code:'c4',name:'MyDevelop'},
-      {code:'c5',name:'This is a fix'}
+      {code:'c5',name:'This is a fix'},
+      {code:'c6',name:'This is a fix'}
+
 
     ]
   }
